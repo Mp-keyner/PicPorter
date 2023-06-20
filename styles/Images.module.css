@@ -1,0 +1,27 @@
+.imageUno{
+    background-size: 20pc;
+    transition: all 0.9 ease-in-out;
+}
+
+.imageUno:hover{
+    background-size: 22pc;
+    transition: all 0.9 ease-in-out;
+}
+.cno{
+    display: grid;
+    grid-template-columns: repeat(4, 18pc);
+    gap: 1em;
+    justify-items: center;
+}
+.apa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 400px){
+    .cno{
+        grid-template-columns: 18pc;
+    }
+}
