@@ -50,4 +50,4 @@ If you want to contribute to the development of PicPorter, you are welcome to do
 
 ---
 
-PicPorter esta en desarrollo..
+PicPorter is under development..
