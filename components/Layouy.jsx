@@ -2,6 +2,7 @@ import React, { children } from "react";
 import { ToastContainer } from "react-toastify";
 import Navart from "./Navart";
 import Footer from "./Footer";
+import NewImageButton from "./NewImageBoton";
 
 export const Layouy = ({ children }) => {
   return (
@@ -12,6 +13,7 @@ export const Layouy = ({ children }) => {
           <div className="p-5  rounded">{children}</div>
         </div>
       </div>
+      <NewImageButton />
       <Footer />
       <ToastContainer />
     </>

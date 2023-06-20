@@ -50,19 +50,19 @@ const Navart = () => {
             href={"/"}
             className="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-4 cursor-pointer hover:shadow-lg"
           >
-            Home
+            Inicio
           </Link>
           <Link
             href={"/About"}
             className="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-4 cursor-pointer hover:shadow-lg"
           >
-            About
+            Sobre Picporter
           </Link>
           <Link
             href={"/New"}
             className="block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white hover:shadow-lg"
           >
-            New Image
+            Nueva Imagen
           </Link>
         </div>
       </div>

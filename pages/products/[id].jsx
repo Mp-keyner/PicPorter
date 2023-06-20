@@ -4,6 +4,7 @@ import React from "react";
 import { useRouter } from "next/router";
 import { toast } from "react-toastify";
 import Image from "next/image";
+import BotonCpy from "@/components/BotonCpy";
 
 const ProductPage = ({ products }) => {
   const router = useRouter();
@@ -17,14 +18,6 @@ const ProductPage = ({ products }) => {
     } catch (error) {
       toast.error(error.message);
     }
-  };
-
-  const copyToClipboard = (x) => {
-    // const url = x; // Reemplaza esto con la URL que deseas copiar
-    // url.select();
-    // document.execCommand("copy");
-    // alert("Texto copiado");
-    console.log("cpy");
   };
 
   let Urldb = products.Url;
@@ -42,12 +35,7 @@ const ProductPage = ({ products }) => {
           <div className=" rounded shadowx-md">
             <h1 className="text-lg font-semibold my-7 ">🖼️{products.name}</h1>
             <p>{products.description}</p>
-            <button
-              className="btn bg-green-600 px-3 w-30 h-10 m-3 rounded shadowx-md hover:bg-green-500"
-              onclick={() => console.log("cpy")}
-            >
-              Copiar URL
-            </button>
+            <BotonCpy text={products.Url} />
           </div>
 
           <button

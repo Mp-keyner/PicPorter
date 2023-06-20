@@ -313,7 +313,6 @@
 @media screen and (max-width:400px) {
     .row {
         flex-direction: column;
-        padding: 1pc;
     }
 
     .acerca,
@@ -342,5 +341,12 @@
         display: flex;
         margin-left: 1pc;
         gap: 2px;
+    }
+    .row{
+        padding: 0;
+    }
+    .acerca {
+        width: 100%;
+        margin-bottom: 1pc;
     }
 }
