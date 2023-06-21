@@ -38,8 +38,18 @@
     border-radius: 4px; /* Radio de borde de la pista */
   }
   
+  @media screen and (max-width: 1050px){
+      .cno{
+          grid-template-columns: repeat(3, 18pc);
+      }
+  }
+  @media screen and (max-width: 950px){
+      .cno{
+          grid-template-columns: repeat(2, 18pc);
+      }
+  }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 800px){
     .cno{
         grid-template-columns: 18pc;
     }

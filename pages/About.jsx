@@ -5,7 +5,7 @@ function About() {
   return (
     <Layouy>
       <div
-        className="flex w-100% h-[80vh] items-center justify-center flex-col  h-[100%]"
+        className="flex w-100% sm:h-[100vh] h-[110vh] items-center justify-center flex-col  h-[100%]"
         data-aos="zoom-out"
       >
         <div className="p-[1pc] lg:w-1/2 xl:w-1/2">

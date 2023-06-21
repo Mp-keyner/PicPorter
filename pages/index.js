@@ -18,7 +18,7 @@ const Homepage = ({ products }) => {
   return (
     <Layouy>
       <div className={styles.apa}>
-        <h1 className="  text-center text-3xl font-bold my-8 text-[2pc] ">
+        <h1 className="  text-center sm:text-3xl text-[25px] font-bold my-8 text-[2pc] ">
           🖼️ Lista de Imagenes 🖼️
         </h1>
 
